@@ -249,7 +249,7 @@ function updateCreatorChart(type, name) {
     	.text('Top 10 Checkout Items for ' + name);
 
 
-d3.csv('../scatterplot_begins/library.csv', function(error, dataset) {
+d3.csv('../library.csv', function(error, dataset) {
 
   if (error) throw error;
 
